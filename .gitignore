@@ -33,8 +33,6 @@ etl_project/runtime/logs/
 etl_project/runtime/source.db
 etl_project/runtime/destination.db
 
-# Generated benchmark results and local exports
-etl_project/results/*.png
 
 # Optional: keep source benchmark DBs out of git
 etl_project/runtime/datasets/*.db
