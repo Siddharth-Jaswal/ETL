@@ -1,0 +1,37 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local runtime and generated ETL artifacts
+etl_project/runtime/data/
+etl_project/runtime/chunks/
+etl_project/runtime/destinations/
+etl_project/runtime/logs/
+etl_project/runtime/source.db
+etl_project/runtime/destination.db
+
+# Generated benchmark results and local exports
+etl_project/results/*.png
+
+# Optional: keep source benchmark DBs out of git
+etl_project/runtime/datasets/*.db
